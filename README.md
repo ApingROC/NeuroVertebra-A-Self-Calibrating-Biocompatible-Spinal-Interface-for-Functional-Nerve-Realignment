@@ -40,3 +40,4 @@ The NeuroVertebra is intended as an open-source, community-driven project releas
 The NeuroVertebra interface offers a feasible, biocompatible, and technically realizable approach to spinal cord signal restoration. By leveraging existing microfabrication, sensing, and implantable tech, it bridges biological and digital domains without requiring full axonal regrowth. This paradigm could redefine how we approach spinal injuries and neuromodulation.
 
 
+
