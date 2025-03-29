@@ -1,11 +1,11 @@
 Title:
-
 NeuroVertebra: A Self-Calibrating, Biocompatible Spinal Interface for Functional Nerve Realignment
 
-Author: ApingROC 
+Author: ApingROC Date: May 2025
 
 Abstract:
 This paper proposes a novel neural interface system, dubbed the “NeuroVertebra,” designed to restore signal continuity across severed spinal cord segments. The system integrates a biocompatible titanium vertebral scaffold with a gold/DLC-based electrode matrix interface that enables spatially-coherent realignment of severed nerve ends. Unlike conventional nerve repair methods, which lack precise indexing between nerve ends, NeuroVertebra employs a CCD-style electrode array that senses extracellular electrical charge and uses real-time signal correlation to virtually rotate and align the contact matrix, restoring functional topography. The design is open-source and proposed for development under the Apache 2.0 license.
+
 
 
 1. Introduction
@@ -13,9 +13,12 @@ Spinal cord injuries often result in irreversible loss of function due to the fa
 
 2. Design Overview
 The NeuroVertebra system is composed of three main elements:
-1. Titanium Vertebral Frame: A 3D-printed, porous titanium scaffold replaces the damaged vertebral body, providing mechanical stability and hosting the interface components.
-2. Gold/DLC Matrix Interface: A CCD-style array of recessed gold contacts embedded in a diamond-like carbon (DLC) matrix. Each gold electrode is slightly recessed and features a central needle tip, designed to make precise, low-impedance contact with nerve tissue under slight pressure. This ensures activation only upon direct tissue engagement, reducing noise and increasing contact fidelity.
-3. Rotational Signal Alignment Logic: A charge-sensing chip reads extracellular potentials and rotates the distal matrix virtually until signal correlation with the proximal matrix reaches maximum fidelity. This ensures accurate nerve-to-nerve mapping without physical guidance cues.
+
+Titanium Vertebral Frame: A 3D-printed, porous titanium scaffold replaces the damaged vertebral body, providing mechanical stability and hosting the interface components.
+
+Gold/DLC Matrix Interface: A CCD-style array of recessed gold contacts embedded in a diamond-like carbon (DLC) matrix. Each gold electrode is slightly recessed and features a central needle tip, designed to make precise, low-impedance contact with nerve tissue under slight pressure. This ensures activation only upon direct tissue engagement, reducing noise and increasing contact fidelity.
+
+Rotational Signal Alignment Logic: A charge-sensing chip reads extracellular potentials and rotates the distal matrix virtually until signal correlation with the proximal matrix reaches maximum fidelity. This ensures accurate nerve-to-nerve mapping without physical guidance cues.
 
 3. Biological Integration
 • Biocompatibility: All materials (titanium, gold, DLC) are well-established in implantable devices.
@@ -38,6 +41,5 @@ The NeuroVertebra is intended as an open-source, community-driven project releas
 
 7. Conclusion
 The NeuroVertebra interface offers a feasible, biocompatible, and technically realizable approach to spinal cord signal restoration. By leveraging existing microfabrication, sensing, and implantable tech, it bridges biological and digital domains without requiring full axonal regrowth. This paradigm could redefine how we approach spinal injuries and neuromodulation.
-
 
 
