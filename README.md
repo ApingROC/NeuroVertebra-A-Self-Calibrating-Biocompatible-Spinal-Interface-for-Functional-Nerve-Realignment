@@ -8,7 +8,6 @@ Abstract:
 This paper proposes a novel neural interface system, dubbed the “NeuroVertebra,” designed to restore signal continuity across severed spinal cord segments. The system integrates a biocompatible titanium vertebral scaffold with a gold/DLC-based electrode matrix interface that enables spatially-coherent realignment of severed nerve ends. Unlike conventional nerve repair methods, which lack precise indexing between nerve ends, NeuroVertebra employs a CCD-style electrode array that senses extracellular electrical charge and uses real-time signal correlation to virtually rotate and align the contact matrix, restoring functional topography. The design is open-source and proposed for development under the Apache 2.0 license.
 
 
-
 1. Introduction
 Spinal cord injuries often result in irreversible loss of function due to the failure of severed axons to reconnect. Even with clean transections, no practical method exists to realign nerve bundles with their original topography. The NeuroVertebra aims to bridge this gap through a charge-sensing electrode array and a self-calibrating interface logic capable of restoring signal integrity without the need for full biological regeneration.
 
